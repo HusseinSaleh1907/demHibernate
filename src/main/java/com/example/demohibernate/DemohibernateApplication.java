@@ -8,6 +8,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class DemohibernateApplication {
 
 	public static void main(String[] args) {
+		//Test push
 		ConfigurableApplicationContext context= SpringApplication.run(DemohibernateApplication.class, args);
 	
 	PersonneRepository personneRepository=context.getBean(PersonneRepository.class)	;
